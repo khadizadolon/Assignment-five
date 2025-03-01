@@ -1,0 +1,7 @@
+.hr{
+    border-bottom: 1px dashed #F4F7FF;
+}
+
+.dotted-border{
+    border-bottom: 1px dotted #F4F7FF;
+}
