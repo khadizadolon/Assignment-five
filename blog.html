@@ -19,16 +19,7 @@
           <h1 class="text-3xl text-[#00303C]">Dev<span class="text-[#00303C] font-bold">Board</span></h1>
         </div>
 
-        <!-- <div class="flex gap-9">
-          
-            <button class="flex items-center gap-3 text-3xl font-bold p-4 bg-[#F4F7FF] rounded-[100px]">
-              <img class="w-[32px] h-[32px]" src="assets/checkbox.png" alt="" />23
-            </button>
-          
-          <button class="p-3 rounded-full bg-[#F4F7FF]"><img class="w-[40px] h-[40px]" src="assets/theme-btn.png" alt="" /></button>
-        </div> -->
-
-        <a href="index.html">
+        <a href="./index.html">
             <button class="text-white bg-[#3752FD] pl-4 pr-4 pt-3 pb-3 text-xl rounded-lg font-medium">Back to Desk</button>
         </a>
       </nav>
@@ -41,8 +32,9 @@
             <div class="bg-white p-5 rounded-xl mb-6">
                 <h1 class="font-bold text-xl mb-5 ">Question-1: What are the different ways to select an element in the DOM?</h1>
 
+                <!-- <br class="border-b border-black" /> -->
                 <hr class="dotted-border mb-5">
-                <p class="text-[#808080]">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum quis voluptate nulla veritatis dolorem et minus maxime nemo nobis. Sequi quibusdam dolor necessitatibus optio at voluptas odit asperiores veniam dicta.</p>
+                <p class="text-[#808080]">We can use getElementById() for ID selection, getElementsByClassName() and getElementsByTagName() for class and tag selection, and querySelector() or querySelectorAll() for CSS-style selection.</p>
             </div>
 
             <!-- Question-2 -->
@@ -50,7 +42,7 @@
                 <h1 class="font-bold text-xl mb-5 ">Question-2: What is the difference between innerHTML, innerText, and textContent ?</h1>
 
                 <hr class="dotted-border mb-5">
-                <p class="text-[#808080]">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum quis voluptate nulla veritatis dolorem et minus maxime nemo nobis. Sequi quibusdam dolor necessitatibus optio at voluptas odit asperiores veniam dicta.</p>
+                <p class="text-[#808080]">InnerHTML retrieves or sets the HTML inside an element, innerText retrieves only visible text, and textContent gets all text, including hidden elements, without parsing HTML.</p>
             </div>
 
             <!-- Question-3 -->
@@ -58,7 +50,7 @@
                 <h1 class="font-bold text-xl mb-5 ">Question-3: What is event delegation in the DOM?</h1>
 
                 <hr class="dotted-border mb-5">
-                <p class="text-[#808080]">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum quis voluptate nulla veritatis dolorem et minus maxime nemo nobis. Sequi quibusdam dolor necessitatibus optio at voluptas odit asperiores veniam dicta.</p>
+                <p class="text-[#808080]">It allows handling events efficiently by attaching a listener to a parent element and detecting which child triggered the event using event.target, reducing the need for multiple event listeners.</p>
             </div>
 
             <!-- Question-4 -->
@@ -66,7 +58,7 @@
                 <h1 class="font-bold text-xl mb-5 ">Question-4: What is event bubbling in the DOM?</h1>
 
                 <hr class="dotted-border mb-5">
-                <p class="text-[#808080]">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum quis voluptate nulla veritatis dolorem et minus maxime nemo nobis. Sequi quibusdam dolor necessitatibus optio at voluptas odit asperiores veniam dicta.</p>
+                <p class="text-[#808080]">When an event occurs on a nested element, it first triggers on the target element and then propagates upwards to its ancestors unless event.stopPropagation() is used.</p>
             </div>
 
             <!-- Question-5-->
@@ -74,7 +66,7 @@
                 <h1 class="font-bold text-xl mb-5 ">Question-5: How do you create, add, and remove elements using JavaScript?</h1>
 
                 <hr class="dotted-border mb-5">
-                <p class="text-[#808080]">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum quis voluptate nulla veritatis dolorem et minus maxime nemo nobis. Sequi quibusdam dolor necessitatibus optio at voluptas odit asperiores veniam dicta.</p>
+                <p class="text-[#808080]">We can create elements using document.createElement(), add them with appendChild(), and remove them using remove() or removeChild(), modifying the DOM dynamically.</p>
             </div>
         </section>
     </main>
